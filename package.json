@@ -1,0 +1,11 @@
+{
+  "devDependencies": {
+    "http-server": "^14.1.1",
+    "sass": "^1.97.3"
+  },
+  "scripts": {
+    "build:sass": "sass style.scss style.css",
+    "serve": "npx http-server -p 8000",
+    "start": "npm run build:sass && npm run serve"
+  }
+}
